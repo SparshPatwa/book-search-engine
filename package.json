@@ -1,7 +1,7 @@
 {
-  "name": "googlebooks-app",
+  "name": "book-search-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Book Search Engine using Google Search Engine",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -10,13 +10,9 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "heroku-postbuild": "cd client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@work.github.com:arosenkranz/googlebooks-app.git"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sparsh Patwa",
+  "license": "MIT",
   "dependencies": {
     "if-env": "^1.0.4"
   },

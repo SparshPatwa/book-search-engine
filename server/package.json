@@ -1,16 +1,17 @@
 {
-  "name": "server",
+  "name": "book-search-engine",
   "version": "1.0.0",
-  "description": "",
+  "description": "Book Search Engine using Google Search Engine",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sparsh Patwa",
+  "license": "MIT",
   "dependencies": {
+    "apollo-server-express": "^2.19.0",
     "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
